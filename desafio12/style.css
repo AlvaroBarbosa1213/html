@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+  :root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:"Sriracha", cursive;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte2);
+  
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal{
+    background-color:#10121e;
+    color: rgb(253, 251, 251);
+}
+.img{
+    box-shadow: inset 5px 5px 13px 0px black;
+    background-color: rgba(88, 85, 85, 0.368);
+    color: white;
+   
+}
+section.img > p{
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 220px;
+}
+section > p{
+    padding-bottom: 2em;
+    font-size: 20px;
+}
+section#img1{
+    background-image: url("minimal-landscape-sunset-4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img2{
+    background-image: url("falling-girl-astronaut.jpg");
+    background-position: center bottom;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img3{
+    background-image: url("argentina-mountains-lake-patagonia-reflection.jpg");
+    background-position: center bottom;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    text-transform: uppercase   ;
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    background-color: #1B212A;
+    color: white;
+    
+}
+h1{
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+   
+  
+    
+
