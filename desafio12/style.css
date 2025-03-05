@@ -47,6 +47,7 @@ section#img1{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center top;
 }
 section#img2{
     background-image: url("falling-girl-astronaut.jpg");
@@ -58,7 +59,7 @@ section#img2{
 }
 section#img3{
     background-image: url("argentina-mountains-lake-patagonia-reflection.jpg");
-    background-position: center bottom;
+    background-position: center top;
   
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,14 +69,15 @@ section#img3{
 header{
     text-transform: uppercase   ;
     margin: 0px;
-    padding: 0px;
+    
     height: 150px;
     background-color: #1B212A;
     color: white;
     
 }
 h1{
-    padding: 50px;
+    padding bottom: 10px;
+    padding-top:50px;
     margin: auto;
     text-align: center;
 }
