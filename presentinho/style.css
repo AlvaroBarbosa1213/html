@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+  :root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:"Sriracha", cursive;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.113);
+    border-radius: 10px;
+    transition-duration: 1s;
+    text-decoration: underline;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte2);
+  
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal{
+    background-color:#10121e;
+    color: rgb(253, 251, 251);
+}
+.img{
+    box-shadow: inset 5px 5px 13px 0px black;
+    background-color: rgba(88, 85, 85, 0.368);
+    color: white;
+   
+}
+section.img > p{
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 220px;
+}
+section > p{
+    padding-bottom: 2em;
+    font-size: 20px;
+}
+section#img1{
+    background-image: url("foto1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+section#img2{
+    background-image: url("foto2.jpg");
+    background-position: center center;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img3{
+    background-image: url("GIF_20250305_112653_019.gif");
+    background-position:  left top;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+header{
+    text-transform: uppercase   ;
+    margin: 0px;
+    
+    height: 200px;
+    background-color: #1B212A;
+    color: white;
+    
+}
+h1{
+ padding-top: 30px;
+    text-align: center;
+}
+
+   
+  
+    
+
