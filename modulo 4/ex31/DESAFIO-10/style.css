@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+}
+body{
+    margin: 0px;    
+    background-color:  rgb(239, 236, 228);
+}
+header{
+    border: px;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-image: linear-gradient(#07E053,#336143);
+    color: aliceblue;
+}
+h1{
+    padding: 20px;
+   
+}
+h2#verde{
+    color: #24B657;
+    font-size: 30px;
+    
+}
+
+
+
+.cabeça{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+   
+    
+}
+.cabeça:hover{
+    color: aqua;
+    text-decoration: underline;
+    background-image: linear-gradient(45deg,#07e05313,rgba(255, 255, 255, 0.238));
+    border-radius: 40px;
+    
+}
+nav{
+    padding: 10px;
+    margin: 10px;
+    
+    text-align: center;
+}
+.para{
+    color: #167838;
+    background-image: linear-gradient(to right,#07e0538b,white);
+}
+
+p > a{
+    text-decoration: none;
+    color: rgb(19, 102, 20);
+    background-image: linear-gradient(45deg,#07E0538b,white);
+}
+p > a:hover{
+    text-decoration: underline;
+    color: #07E053;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+img#bugdroid{
+    width: 50%;
+    height: auto;
+
+
+}
+main{
+
+    background-color: rgb(239, 236, 228);
+    margin: 80px;
+    padding: 0px;
+}
+ul{
+    font-weight: 1000;
+    background-color: #07c048;
+    color: white;
+    margin: 0px;
+    text-align: center;
+
+}
+
+picture{
+    max-width: 100%;
+    height: auto;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.276);
+    border-radius: 20px;
+}
+h2#dentrolista{
+    background-color: #336143;
+    text-align: center;
+    
+}
+p#plista{
+    margin: 0px;
+}
+    
