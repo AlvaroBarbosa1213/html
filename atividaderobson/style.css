@@ -23,6 +23,7 @@
 body{
 margin: 0px;
 padding: 0px;
+background-color: #1a2726;
 }
 header{
     
@@ -216,7 +217,9 @@ font-size:30px;
         article{
             background-color: #266e6a;
             padding: 10px;
+            margin-top: 1px;
             margin: 0px;
+
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.276);
             border-radius: 20px;
         }
