@@ -252,7 +252,7 @@ font-size:30px;
             font-family: "Passion One", sans-serif; 
             font-size: 28px;
             border-radius: 10px;
-           margin: 0px;
+           margin: 0 px;
            
             text-decoration: none;
             color: white;
@@ -281,5 +281,7 @@ font-size:30px;
                 width: 100%;
                 height: 350px;
             }
-
+p#voltar{
+    text-align: center;
+}
     }
