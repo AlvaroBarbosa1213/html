@@ -35,13 +35,27 @@ header{
 }
 img{
     box-shadow: 5px 5px 5px black;
+    margin-bottom: 10px;
 }
+hr {
+    border: none; /* Remove o estilo padrão */
+    height: 3px; /* Define a espessura */
+    background-color:#1a2726; /* Cor da linha */
+    margin: 20px 0; /* Espaçamento */
+}
+.titulo{
+    background-color: #164442;
+    border-radius: 15px;
+}
+
 main{ 
   border-radius: 20px;
   margin: 30px;
     background-color: #266e6a;
 }
     p{
+        padding: 5px;
+        border-radius: 20px;
         background-color: #283C3A;
         text-shadow: 0px 0px  2px black;
         text-align: justify;
