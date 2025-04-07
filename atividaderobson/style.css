@@ -17,6 +17,7 @@
   }
   
 *{
+    text-align: center;
     margin: 0px;
 }
 body{
@@ -34,17 +35,19 @@ header{
 img{
     box-shadow: 5px 5px 5px black;
 }
-main{padding: 1px;
-    text-align: center;
+main{ 
+  border-radius: 20px;
+  margin: 30px;
     background-color: #266e6a;
 }
     p{
         background-color: #283C3A;
         text-shadow: 0px 0px  2px black;
-        
-        margin-top: 10px;
-        margin-left: 150px;
-        margin-right: 150px;
+        text-align: justify;
+        margin-left: 100px;
+         margin-right: 100px;
+    
+    
         color: white;
         font-size: 22px;
         font-family: "Passion One", sans-serif;
@@ -56,9 +59,11 @@ h1{
      margin-top:20px;
 color: white;
 font-family: "Passion One", sans-serif;
+font-size:50px;
 }
 .download{
     background-color: #283C3A;
+    margin: 20px;
 }
 .download:hover{
     background-color: antiquewhite;
@@ -72,17 +77,27 @@ h1#cabeça{
 }
 nav{
     color: white;
+    padding: 10px;
+    margin: 0px;
+
+    
+    text-align: center;
+}
+article{
+    background-color: #266e6a;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.276);
+    border-radius: 20px;
 }
 
-
 a{
+    margin: 50px;
     text-shadow: 0px 0px  4px black;
-        
     font-family: "Passion One", sans-serif; 
     font-size: 25px;
     border-radius: 10px;
-    padding-left: 100px;
-    margin: 30px;
+   
     text-decoration: none;
     color: white;
     padding: 8px;
@@ -97,3 +112,148 @@ a:hover{
     transition: 1s;
     text-decoration: underline;
 }
+    div{
+        max-width: 100%;
+    height: auto;
+    text-align: center;
+    }
+    @media (max-width: 450px){
+        .passion-one-regular {
+            font-family: "Passion One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
+          .passion-one-bold {
+            font-family: "Passion One", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+          
+          .passion-one-black {
+            font-family: "Passion One", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+          }
+          
+        *{
+            text-align: center;
+            margin: 0px;
+        }
+        body{
+        margin: 0px;
+        padding: 0px;
+        }
+        header{
+            
+            
+            padding: 5px;
+            top: 0px;
+            margin: 0px;
+            text-align: center;
+            background-color: #283C3A;
+        }
+        img{
+            box-shadow: 5px 5px 5px black;
+        }
+        main{ 
+          border-radius: 20px;
+          margin: 0px;
+            background-color: #266e6a;
+        }
+            p{
+                margin-left: 0px;
+                margin-right: 0px;
+                background-color: #283C3A;
+                text-shadow: 0px 0px  2px black;
+                text-align: justify;
+            
+                color: white;
+                font-size: 21px;
+                font-family: "Passion One", sans-serif;
+                
+            }
+        h1{
+font-size:30px;
+
+            text-shadow: 0px 0px  4px black;
+                
+             margin-top:20px;
+        color: white;
+        font-family: "Passion One", sans-serif;
+        }
+        .download{
+            background-color: #283C3A;
+            margin: 20px;
+            padding: 15px;
+            font-size: 20px;
+           
+        }
+        .download:hover{
+            background-color: antiquewhite;
+        }
+        h1#cabeça{
+          
+            text-shadow: 0px 0px  4px black;
+            background-color: #283C3A;
+                
+            font-family: "Passion One", sans-serif;
+            color: white;
+            font-size: 30px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between; /* Ajusta os itens */
+            align-items: center;
+        
+            color: white;
+            padding: 1px;
+            margin: 1px;
+        
+            
+            text-align: center;
+        }
+        article{
+            background-color: #266e6a;
+            padding: 10px;
+            margin: 0px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.276);
+            border-radius: 20px;
+        }
+        
+        a{
+            text-shadow: 0px 0px  4px black;
+            font-family: "Passion One", sans-serif; 
+            font-size: 15px;
+            border-radius: 10px;
+           margin: 2px;
+           
+            text-decoration: none;
+            color: white;
+            padding: 8px;
+            background-color: #336663;
+        }
+        a:hover{
+            color: aqua;
+            background-color: #39726e;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 60px;
+            transition: 1s;
+            text-decoration: underline;
+        }
+            div{
+                max-width: 100%;
+            height: auto;
+            text-align: center;
+            }
+            img{
+                width: 100%;
+                height: 300px;
+            }
+            iframe{
+                width: 100%;
+                height: 350px;
+            }
+
+    }
