@@ -23,7 +23,7 @@
 body{
 margin: 0px;
 padding: 0px;
-background-color: #1a2726;
+background-color: #393A46;
 }
 header{
     
@@ -31,7 +31,14 @@ header{
     top: 0px;
     margin: 0px;
     text-align: center;
-    background-color: #283C3A;
+   background-image:url(426414.jpg);
+   display: block;
+   background-position: center center;
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
 }
 img{
     box-shadow: 5px 5px 5px black;
@@ -40,23 +47,23 @@ img{
 hr {
     border: none; /* Remove o estilo padrão */
     height: 3px; /* Define a espessura */
-    background-color:#1a2726; /* Cor da linha */
+    background-color:#313649; /* Cor da linha */
     margin: 20px 0; /* Espaçamento */
 }
 .titulo{
-    background-color: #164442;
+    background-color: #212333;
     border-radius: 15px;
 }
 
 main{ 
   border-radius: 20px;
   margin: 30px;
-    background-color: #266e6a;
+    background-color: #0a0b1a;
 }
     p{
         padding: 5px;
         border-radius: 20px;
-        background-color: #283C3A;
+        background-color: #212333;
         text-shadow: 0px 0px  2px black;
         text-align: justify;
         margin-left: 100px;
@@ -77,32 +84,35 @@ font-family: "Passion One", sans-serif;
 font-size:50px;
 }
 .download{
-    background-color: #283C3A;
+    background-color: #212333;
     margin: 20px;
 }
 .download:hover{
-    background-color: antiquewhite;
+    background-color: rgb(218, 218, 218);
 }
 h1#cabeça{
+    background-color: #313649;
     text-shadow: 0px 0px  4px black;
- background-image: linear-gradient(#283C3A,#266e6a);
  border-radius: 15px;
- padding: 1px;
+ padding: 0px;
+ margin: 2px;
+ 
+ 
         
     font-family: "Passion One", sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 100px;
+    font-weight: 600;
 }
 nav{
     color: white;
-    padding: 10px;
-    margin: 0px;
+  
 
     
     text-align: center;
 }
 article{
-    background-color: #266e6a;
+    background-color: #393A46;
     padding: 10px;
     margin: 50px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.276);
@@ -119,11 +129,11 @@ a{
     text-decoration: none;
     color: white;
     padding: 8px;
-    background-color: #336663;
+    background-color: #393A46;
 }
 a:hover{
     color: aqua;
-    background-color: #39726e;
+    background-color: #393A46;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 60px;
@@ -173,7 +183,13 @@ h2{
             top: 0px;
             margin: 0px;
             text-align: center;
-            background-color: #283C3A;
+            background-image:url(426414.jpg);
+            display: block;
+            background-position: center center;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
         img{
             box-shadow: 5px 5px 5px black;
@@ -181,12 +197,12 @@ h2{
         main{ 
           border-radius: 20px;
           margin: 0px;
-            background-color: #266e6a;
+            background-color: #0a0b1a;
         }
             p{
                 margin-left: 0px;
                 margin-right: 0px;
-                background-color: #283C3A;
+                background-color: #212333;
                 text-shadow: 0px 0px  2px black;
                 text-align: justify;
             
@@ -205,7 +221,7 @@ font-size:30px;
         font-family: "Passion One", sans-serif;
         }
         .download{
-            background-color: #283C3A;
+            background-color: #212333;
             margin: 20px;
             padding: 15px;
             font-size: 20px;
@@ -217,7 +233,7 @@ font-size:30px;
         h1#cabeça{
           
             text-shadow: 0px 0px  4px black;
-            background-color: #283C3A;
+            background-color: #212333;
                 
             font-family: "Passion One", sans-serif;
             color: white;
@@ -236,7 +252,7 @@ font-size:30px;
             text-align: center;
         }
         article{
-            background-color: #266e6a;
+            background-color: #393A46;
             padding: 10px;
             margin-top: 1px;
             margin: 0px;
@@ -255,11 +271,11 @@ font-size:30px;
             text-decoration: none;
             color: white;
             padding: 2px;
-            background-color: #336663;
+            background-color: #393A46;
         }
         a:hover{
             color: aqua;
-            background-color: #39726e;
+            background-color: #212333;
             padding: 10px;
             margin-bottom: 20px;
             border-radius: 60px;
